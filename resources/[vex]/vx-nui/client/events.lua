@@ -1,0 +1,15 @@
+RegisterNetEvent('nui:OpenApplication')
+AddEventHandler('nui:OpenApplication', function(name)
+    OpenApplication(name)
+end)
+
+RegisterNetEvent('nui:DispatchNui')
+AddEventHandler('nui:DispatchNui', function(name, data)
+    DispatchNui(name, data)
+end)
+
+RegisterNetEvent('nui:Focus')
+AddEventHandler('nui:Focus', function(hasKeyboard, hasMouse)
+    print(hasKeyboard)
+    SetUIFocus(hasKeyboard, hasMouse)
+end)

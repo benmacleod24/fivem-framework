@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "model",
+    "storeType": "clothing"
+  },
+  {
+    "id": 2,
+    "name": "clothes",
+    "storeType": "clothing"
+  },
+  {
+    "id": 3,
+    "name": "accessories",
+    "storeType": "clothing"
+  },
+  {
+    "id": 4,
+    "name": "parents",
+    "storeType": "barber"
+  },
+  {
+    "id": 5,
+    "name": "face",
+    "storeType": "barber"
+  },
+  {
+    "id": 6,
+    "name": "skin",
+    "storeType": "barber"
+  },
+  {
+    "id": 7,
+    "name": "hair",
+    "storeType": "barber"
+  },
+  {
+    "id": 8,
+    "name": "makeup",
+    "storeType": "barber"
+  },
+  {
+    "id": 9,
+    "name": "backup",
+    "storeType": "barber"
+  }
+]

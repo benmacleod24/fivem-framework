@@ -1,0 +1,12 @@
+/cache/
+/resources/\[local\]/
+/db/
+node_modules
+.DS_STORE
+
+integrity_lobby
+WiseGuy-Imports
+/resources/\[stream\]/
+
+imgui.ini
+resources/[vendors]/No-clip

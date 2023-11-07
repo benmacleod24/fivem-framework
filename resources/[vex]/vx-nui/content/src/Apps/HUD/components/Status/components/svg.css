@@ -1,0 +1,5 @@
+.svgCirlceStyles {
+  transition: 0.35s stroke-dashoffset;
+  transform: rotate(-90deg);
+  transform-origin: 49.9% 50%;
+}

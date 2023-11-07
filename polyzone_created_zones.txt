@@ -1,0 +1,71 @@
+--Name: mrpd_garage | 2022-01-19T02:44:38Z
+BoxZone:Create(vector3(435.79, -986.66, 25.7), 25.6, 26.4, {
+  name="mrpd_garage",
+  heading=90,
+  --debugPoly=true
+})
+--Name: semitruck-duty | 2022-05-22T15:57:58Z
+BoxZone:Create(vector3(1196.2, -3253.31, 7.1), 11.2, 6.4, {
+  name="semitruck-duty",
+  heading=0,
+  --debugPoly=true,
+  minZ=6.1,
+  maxZ=10.7
+})
+
+--Name: clothing_store_1 | 2022-06-02T13:53:26Z
+BoxZone:Create(vector3(427.17, -801.16, 29.49), 9.6, 6.4, {
+  name="clothing_store_1",
+  heading=90,
+  --debugPoly=true
+})
+
+--Name: prison | 2022-06-02T16:29:31Z
+PolyZone:Create({
+  vector2(1761.5638427734, 2410.3581542969),
+  vector2(1658.9371337891, 2394.29296875),
+  vector2(1540.2492675781, 2469.8410644531),
+  vector2(1535.0080566406, 2585.3569335938),
+  vector2(1569.8275146484, 2680.8308105469),
+  vector2(1649.74609375, 2758.0393066406),
+  vector2(1773.3669433594, 2762.767578125),
+  vector2(1848.9772949219, 2699.8627929688),
+  vector2(1824.4252929688, 2620.8491210938),
+  vector2(1845.3806152344, 2612.5668945312),
+  vector2(1844.6472167969, 2568.9545898438),
+  vector2(1818.7222900391, 2567.5981445312),
+  vector2(1817.0460205078, 2531.2172851562),
+  vector2(1824.7937011719, 2475.6281738281)
+}, {
+  name="prison",
+  --minZ = 53.685684204102,
+  --maxZ = 69.405700683594
+})
+
+--Name: prison_time_check | 2022-06-03T10:43:12Z
+BoxZone:Create(vector3(1828.92, 2581.05, 46.01), 3.25, 5.1, {
+  name="prison_time_check",
+  heading=1,
+  --debugPoly=true,
+  minZ=44.81,
+  maxZ=48.81
+})
+
+--Name: mrpd_bullard_01 | 2022-06-04T12:01:37Z
+BoxZone:Create(vector3(415.2, -1020.12, 29.23), 5.2, 21.0, {
+  name="mrpd_bullard_01",
+  heading=0,
+  --debugPoly=true,
+  minZ=27.83,
+  maxZ=34.23
+})
+
+--Name: mrpd_bottom_garage_left | 2022-06-04T12:30:32Z
+BoxZone:Create(vector3(431.19, -1003.5, 28.78), 19.6, 5.4, {
+  name="mrpd_bottom_garage_left",
+  heading=0,
+  --debugPoly=true,
+  minZ=24.58,
+  maxZ=30.78
+})
+
